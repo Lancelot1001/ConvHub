@@ -84,3 +84,11 @@ Fallback handling in ToolCard with Globe icon on error.
 - `src/components/features/ToolGrid.tsx` - Tool card grid with animation
 - `src/components/features/CategoryNav.tsx` - Category filter tabs
 - `tailwind.config.js` - Theme colors and glass utility
+
+## Development Guidelines
+
+This project uses Chinese rules (`~/.claude/rules/zh/`) for Claude Code. Key rules:
+- **coding-style.md**: Immutability (always create new objects, never mutate)
+- **development-workflow.md**: Research → Plan → TDD → Code Review → Commit
+- **agents.md**: Use planner for complex tasks, code-reviewer after writing code
+- **patterns.md**: Repository pattern, consistent API response wrapper
